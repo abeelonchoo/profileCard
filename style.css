@@ -12,19 +12,19 @@ body{
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 27vw;
-    height: 75vh;
+    width: 400px;
+    height: 500px;
     border-radius: 50px;
     box-shadow:0 0 10px -1px #3838387a ;
 }
 .deco{
-    margin-top: -12vh;
+    margin-top: -70px;
         display: flex;
 align-items: center;
 justify-content: center;
     width: 100%;
-    min-width: 27vw;
-    height: 23vh;
+    
+    height: 155px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 20%;
@@ -86,7 +86,7 @@ p{
 
 .botones{
     display: inline-flex;
-    margin-top: 3vh;
+    margin-top: 10px;
     gap:20px
 }
 .follow{
