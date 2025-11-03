@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(250, 245, 202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 27vw;
+    height: 75vh;
+    border-radius: 50px;
+    box-shadow:0 0 10px -1px #3838387a ;
+}
+.deco{
+    margin-top: -12vh;
+        display: flex;
+align-items: center;
+justify-content: center;
+    width: 100%;
+    min-width: 27vw;
+    height: 23vh;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 20%;
+      border-bottom-right-radius: 20%;
+    background-color: #c81755;
+    border-bottom: 3px solid #7f0932;
+}
+
+.deco img {
+   filter: drop-shadow(0 0 10px white);
+}
+
+.card h1{
+  font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center ;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    transition: letter-spacing 2s ease;
+}
+
+.card h1:hover{
+    letter-spacing: 5px;
+}
+
+.card h6{
+    text-align: center;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    margin-top:-18px;
+}
+
+.social-icons{
+   
+display: flex;
+align-items: center;
+justify-content: center;
+gap:20px;
+  
+}
+.social-icons a{
+   text-decoration: none;
+    color:black;
+    font-size: 17px;
+}
+
+p{
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+    font-size: 13px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+}
+
+.botones{
+    display: inline-flex;
+    margin-top: 3vh;
+    gap:20px
+}
+.follow{
+    display: flex;
+    background-color: #d23d71;
+    border: none;
+    border-radius: 50px;
+    width: 130px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    display: flex;
+    background-color: #ffffff;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 130px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.follow:hover{
+    background-color: #c62c62;
+}
+.message:hover{
+    background-color: rgba(168, 168, 168, 0.483);
+}
